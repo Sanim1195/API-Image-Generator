@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Comfortaa', cursive;
+    background-color: black;
+    color: white;
+}
+
+header {
+    border-bottom: 5px solid orange;
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 25px 0;
+}
+
+.nav h2 {
+    font-size: 2rem;
+}
+
+.search-box {
+    position: relative;
+    width: 350px;
+
+}
+
+.search-box input {
+    box-sizing: border-box;
+    width: 90%;
+    height: 100%;
+    border-radius: 25px;
+    outline: none;
+}
+
+.search-box i {
+    color: black;
+    position: absolute;
+    top: 25%;
+    right: 14%;
+}
+
+.search-box i:hover {
+    color: orange;
+}
+
+.grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+#input-element{
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    font-size: 1rem;
+}
+#input-element:focus::placeholder{
+    color: transparent;
+}
+
+img {
+    width: 370px;
+    height:220px;
+    margin-top: 15px;
+    background-position: 50% 50%;
+    background-size: cover;
+    border-radius: 5px;
+}
+.button-container{
+    display:flex;
+    justify-content: center;
+}
+
+button {
+    padding: 11px;
+    background-color: orange;
+    border: unset;
+    font-family: 'Comfortaa', cursive;
+    margin-top: 27px;
+    margin-bottom: 50px;
+    /* width: 100px; */
+    border-radius: 1rem;
+    color: black;
+    font-size: 1rem;
+}
